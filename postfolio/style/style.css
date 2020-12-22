@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.row{
+    margin-right: 0;
+}
+
+.header{
+    background-color: #1c1c1bff;
+}
+
+.navbar{
+    justify-content: space-between !important;
+    background-color:#1c1c1bff!important;
+}
+
+
+.navbar-brand,
+.navbar-brand:hover{
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.intro-content span,
+.navbar-brand span,
+.about span,
+footer span{
+    color: #ce4a7eff;
+}
+
+.navbar .fa{
+    color: white;
+    display: none;
+    font-size: 30px;
+}
+
+.navbar-nav .nav-link{
+    text-transform: capitalize !important;
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #ce4a7eff;
+}
+
+.intro-banner {
+   color: white;
+   position: relative;
+    top: 50px;
+}
+
+.intro-banner .intro-content{
+   padding-top: 200px;
+   padding-left: 90px;
+}
+
+.intro-banner .intro-content h2{
+    font-size: 20px;
+}
+
+.intro-banner .intro-content h1{
+    font-size: 25px;
+}
+
+.intro-banner img{
+    width: 45vw;
+    position: relative;
+    top: 30px;
+}
+
+#about,
+#services,
+#skill,
+#resume,
+#contact{
+    padding-top: 50px;
+    padding-bottom: 57px;
+}
+
+
+.about .heading,
+.services .heading,
+.skill .heading,
+.resume .heading,
+.contact .heading{
+    text-align:center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about .heading::after,
+.services .heading::after,
+.skill .heading::after,
+.resume .heading::after,
+.contact .heading::after{
+    content: '';
+    width: 100px;
+    height: 5px;
+    display: block;
+    background-color:  #ce4a7eff;
+    margin: 5px auto;
+}
+
+.about .heading::before,
+.services .heading:before,
+.skill .heading::before,
+.resume .heading::before,
+.contact .heading::before{
+    content: '';
+    width: 40px;
+    height: 8px;
+    display: block;
+    background-color: #ce4a7eff;
+    margin: 0 auto;
+    transform: translateY(50px);
+}
+
+.about img{
+    width: 450px;
+}
+
+.about p,
+table, 
+.skill p, 
+.contact p{
+    font-size: 20px;
+}
+
+#services,
+#resume{
+    background-color: #1c1c1bff;
+}
+
+.services .myservices{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.services .card{
+    border-radius:10px ;
+    text-align: center;
+    box-shadow: 0 0.125rem 0.25rem white !important;
+}
+
+.services .card-body{
+    padding: 5px 25px 10px 25px;
+}
+
+.services i{
+    font-size: 25px;
+    background-color: #ce4a7eff;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    padding-top:15px;
+    margin: 10px auto 5px auto;
+}
+
+.services .card-title{
+   font-size: 23px;
+   font-weight: bold;
+   padding: 6px 0;
+}
+
+.services .card-text{
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.services .card:hover{
+   background-color: #ce4a7eff;
+   color: white;
+}
+
+
+.parallax-section{
+    background: url(../img/image3.jpg);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+.parallax-section h2{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.parallax-section p{
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+.resume i{
+    background-color: #ce4a7eff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    color: white;
+    padding: 6px 8px;
+    transform: translateX(-12px);
+}
+
+.resume .myresume::after{
+    content: "";
+    width: 3px;
+    height: 35px;
+    background-color: silver;
+    display: block;
+    transform: translateY(-25px);
+}
+
+.resume .myresume div{
+    margin-left: 25px;
+    line-height: 0.5;
+}
+
+.resume .myresume p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact .mycontact i{
+    font-size: 20px;
+    margin-right:10px;
+    background-color: #ce4a7eff;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding-top: 3px;
+}
+
+.social-icons i{
+    font-size: 25px;
+    margin-right:10px;
+    background-color: #ce4a7eff;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding-top: 7px;
+}
+
+.social-icons a:hover i{
+    transform: translateY(-20px);
+}
+
+footer div{
+    background-color: #1c1c1bff;
+}
+
+footer p{
+    font-size: 18px;
+}
+
+
